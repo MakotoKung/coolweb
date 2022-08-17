@@ -184,9 +184,7 @@ p{
 .row{
     align-items: center;
 }
-.col-xl-3{
-    
-}
+
 .wraper { 
     position: relative;
     width: 100%;
@@ -208,7 +206,7 @@ p{
     opacity: 0;
     font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:black ;
+    color:darkgray ;
     text-align: center;
     top: 50%;
     
@@ -224,4 +222,11 @@ p{
     opacity: 1;
     margin-top: 10%;
     padding: 0px 8% 0px 8%;
+    color: black;
+}
+.bg-wraper{
+    background-color:black;
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
 }
