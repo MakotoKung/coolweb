@@ -84,7 +84,15 @@
         height: 20%;
         margin-top: 20%;
     }
-    
+    .menu-2{
+        position: fixed;
+        top: 50px;
+        font-size: 30px;
+        background-color: darkorange;
+        font-weight: bolder;
+        border-radius: 10px;
+        z-index: 9999999;
+}
 }
 @media screen and (max-width: 505px) {
     .menu{
@@ -99,7 +107,7 @@
     }
     
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width:320px){
     .menu{
         font-size: 20px;
     }
@@ -108,6 +116,15 @@
         width: 45%;
         margin-top: 40%;
     }
+    .menu-2{
+        position: fixed;
+        top: 50px;
+        font-size: 18px;
+        background-color: darkorange;
+        font-weight: bolder;
+        border-radius: 10px;
+        z-index: 9999999;
+}
 }
 .IB{
     object-fit: cover;
