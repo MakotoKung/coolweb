@@ -1,18 +1,18 @@
 var btn = document.getElementById('active');
-var a = document.getElementById('2')
 var bg = document.getElementById('background');
 var main =document.getElementById('main');
 var text = document.getElementById('text');
-var bg2 = document.getElementById('background2');
+var bt = document.getElementById('act');
+var rec = document.getElementById('rec');
+var bt = document.getElementById('bt');
+
     
 
 
 btn.onclick = function(){
     bg.classList.toggle('op0');  
     main.classList.toggle('lowmain');  
-    text.classList.toggle('recmenu');     
+    text.classList.toggle('recmenu');  
+    bt.classList.toggle('opacity');
+    
 }
-a.onclick = function(){
-    bg2.classList.toggle('op0');        
-
-}   
