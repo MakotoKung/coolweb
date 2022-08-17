@@ -2,7 +2,7 @@ var btn = document.getElementById('active');
 var a = document.getElementById('2')
 var bg = document.getElementById('background');
 var main =document.getElementById('main');
-var text = document.getElementById('text')
+var text = document.getElementById('text');
 var bg2 = document.getElementById('background2');
     
 
